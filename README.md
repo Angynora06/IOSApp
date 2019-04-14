@@ -29,3 +29,11 @@ La variable "isExpand" es la que indica si se muestra el menu o se esconde el me
 Para poder crear una tabla de menus se hace en el MenuController con la variable "tableView" y en la función configureTableView.
 
 Se crea también en el MenuController una extensión por el mismo motivo que la interior. Para crear la celda de la TableView se hace en la carpeta "View" y se llama en el MenuController con la variable cell.
+
+-Para poder crear las constrains en código se hace con el comando "translatesAutoresizingMaskIntoConstraints"
+
+-Para poder modificar los separadores se hacen a través del comando ".separatorStyle" en el MenuController.
+
+Para crear un método que al clickar los botones funcione se hace en "MenuController" a través del "var delegate".
+
+Luego se modifica el protocolo en la carpeta de utils

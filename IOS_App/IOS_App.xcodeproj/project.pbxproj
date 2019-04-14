@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160D5219226362100044AE73 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D5218226362100044AE73 /* MenuOption.swift */; };
 		165F102E22626CAB00079E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165F102D22626CAB00079E36 /* AppDelegate.swift */; };
 		165F103022626CAB00079E36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165F102F22626CAB00079E36 /* ViewController.swift */; };
 		165F103322626CAB00079E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165F103122626CAB00079E36 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160D5218226362100044AE73 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
 		165F102A22626CAB00079E36 /* IOS_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		165F102D22626CAB00079E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165F102F22626CAB00079E36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 		165F105E22626D0A00079E36 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				160D5218226362100044AE73 /* MenuOption.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				165F10692262BE6100079E36 /* MenuOptionCell.swift in Sources */,
+				160D5219226362100044AE73 /* MenuOption.swift in Sources */,
 				165F106522627D8F00079E36 /* MenuController.swift in Sources */,
 				165F106322627D6C00079E36 /* HomeController.swift in Sources */,
 				165F103022626CAB00079E36 /* ViewController.swift in Sources */,
